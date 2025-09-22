@@ -19,4 +19,4 @@ export const ErrorCodeEnum = {
     INTERNAL_SERVER_ERROR: "INTERNAL_SERVER_ERROR",
   } as const;
   
-  export type ErrorCodeEnumType = keyof typeof ErrorCodeEnum;
+  export type ErrorCodeEnumType = keyof typeof ErrorCodeEnum; 

@@ -16,4 +16,4 @@ export const getCurrentUserController = asyncHandler(
       user,
     });
   }
-)
+) 

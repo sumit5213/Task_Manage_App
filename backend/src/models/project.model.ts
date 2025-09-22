@@ -23,7 +23,7 @@ const projectSchema = new mongoose.Schema<ProjectDocument>(
       required: false,
       trim: true,
       default: "📊",
-    },
+    }, 
     description: { type: String, required: false },
     workspace: {
       type: Schema.Types.ObjectId,

@@ -26,7 +26,7 @@ const memberSchema = new mongoose.Schema<MemberDocument>({
         required: true
     },
     joinedAt:{ 
-        type:Date,
+        type:Date, 
         default: Date.now
     },
 },{

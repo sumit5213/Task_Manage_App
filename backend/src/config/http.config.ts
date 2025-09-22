@@ -18,7 +18,7 @@ const httpConfig = () => ({
     // Server error responses
     INTERNAL_SERVER_ERROR: 500,
     NOT_IMPLEMENTED: 501,
-    BAD_GATEWAY: 502,
+    BAD_GATEWAY: 502, 
     SERVICE_UNAVAILABLE: 503,
     GATEWAY_TIMEOUT: 504,
   });

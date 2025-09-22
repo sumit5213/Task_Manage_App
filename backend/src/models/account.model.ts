@@ -19,7 +19,7 @@ const accountSchema = new mongoose.Schema<AccountDocument>({
     },
     provider: {
         type: String,
-        enum: ProviderEnum,
+        enum: ProviderEnum, 
         required: true,
     },
     providerId: {

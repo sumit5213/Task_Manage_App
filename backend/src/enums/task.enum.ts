@@ -13,4 +13,4 @@ export const TaskStatusEnum = {
   } as const;
   
   export type TaskStatusEnumType = keyof typeof TaskStatusEnum;
-  export type TaskPriorityEnumType = keyof typeof TaskPriorityEnum;
+  export type TaskPriorityEnumType = keyof typeof TaskPriorityEnum; 

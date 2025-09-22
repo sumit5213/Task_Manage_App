@@ -19,7 +19,7 @@ const roleSchema = new mongoose.Schema<RoleDocument>({
         type: String,
         enum: Object.values(Roles),
         required: true,
-        unique: true
+        unique: true 
     },
     permissions:{
         type: [String],

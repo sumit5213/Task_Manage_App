@@ -27,4 +27,4 @@ export const Roles = {
     VIEW_ONLY: "VIEW_ONLY",
   } as const;
   
-  export type PermissionType = keyof typeof Permissions;
+  export type PermissionType = keyof typeof Permissions; 
